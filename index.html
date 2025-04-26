@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="img/favicon.png" rel="icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Shop</title>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <a href="#">FAQs</a>
+            <span>|</span>
+            <a href="#">Help </a>
+            <span>|</span>
+            <a href="#">Support</a>
+          </div>
+          <div class="col-6">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-box">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mobile-icon" href="#">
+          <img src="img/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="" />
+            </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="banner">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="img/whiskey.webp"
+              alt="First slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Whiskey: The Timeless Spirit</p>
+              <h4>
+                Whiskey is more than just a drink—it's a story of craftsmanship
+              </h4>
+              <button class="slideshwsbuttons">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="img/PINKCOCTAIL.jpg"
+              alt="Second slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Strawberry Cocktail: A Sweet and Refreshing Delight</p>
+              <h4>
+                A strawberry cocktail is the perfect balance of sweetness,
+                freshness, and a touch of indulgence.
+              </h4>
+              <button class="slideshwsbuttons">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="img/bahama.avif"
+              alt="Third slide"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Houston Cocktail: A Bold and Spirited Drink</p>
+              <h4>
+                The Houston Cocktail is a stylish and strong drink that captures
+                the vibrant energy of the city it's named after.
+              </h4>
+              <button class="slideshwsbuttons">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container">
+        <div id="trdelic">
+          <h1>Traditional & Delicious Drinks Since 2025</h1>
+        </div>
+        <div class="threedivs">
+          <div id="aboutsection">
+            <h3>About Us</h3>
+            <p>
+              Welcome to Juice Bar, your ultimate destination for fresh,
+              delicious, and energizing beverages! We believe in the power of
+              nature’s finest ingredients, crafting every drink with 100% fresh
+              fruits, vegetables, and superfoods to fuel your body and mind.From
+              revitalizing green juices to protein-packed smoothies and
+              immunity-boosting shots, Juice Bar is here to help you stay
+              refreshed and healthy every day. Join us on a journey of flavor
+              and wellness—one sip at a time!
+            </p>
+            <button class="aboutusbtn">Learn More</button>
+          </div>
+          <div><img src="img/coctaillsss.webp" /></div>
+          <div class="features">
+            <h3>Features</h3>
+            <p>
+              Fresh & Natural Ingredients – We use only 100% real fruits,
+              vegetables, and superfoods with no artificial additives. Wide
+              Variety of Drinks – Choose from freshly squeezed juices,
+              smoothies, detox shots, and protein shakes. Customizable Orders –
+              Build your own juice or smoothie with your favorite ingredients!
+              Health-Focused Menu – Options for energy-boosting,
+              immune-strengthening, and detox-friendly drinks. Vegan &
+              Gluten-Free Choices – Something for every lifestyle! Fast & Easy
+              Online Ordering – Get your favorite drinks with just a few clicks.
+              Loyalty Rewards & Discounts – Earn points with every purchase and
+              enjoy exclusive deals! Stay refreshed, energized, and healthy with
+              Juice Bar!
+            </p>
+            <button class="featuresbutton">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="videosection">
+      <div class="cosmopolitan">
+        <img src="img/juicephoto.jpg" />
+        <button
+          type="button"
+          class="btn-play"
+          data-toggle="modal"
+          data-src="https://youtu.be/UbCSAm303RA"
+          data-target="#videoModal"
+        ></button>
+      </div>
+      <div class="pricetag">
+        <div class="circle">
+          <div class="circleprice"><p>199$</p></div>
+          <div class="strawberrysection">
+            <p>
+              Looking for a delicious, refreshing drink without alcohol? The
+              Strawberry Bliss Mocktail is the perfect choice!Packed with the
+              natural sweetness of fresh strawberries and a zesty citrus kick,
+              this drink is light, fruity, and perfect for any occasion.
+            </p>
+            <button class="strwbbtn">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal-fade"
+      id="videoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="productlist">
+      <div class="container">
+        <div class="productwrapper">
+          <div class="productheader">
+            <h1>Best Prices We Offer For Cocktail Lovers</h1>
+          </div>
+          <div class="carousel-section">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/Adobe Express - file.png" />
+                </div>
+                <div class="item-content">
+                  <h2>Margarita</h2>
+                  <h3>90$</h3>
+                  <button>Order Now</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/Adobe Express - file (1).png" />
+                </div>
+                <div class="item-content">
+                  <h2>Cosmopolitan</h2>
+                  <h3>45$</h3>
+                  <button>Order Now</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/Adobe Express - file (2).png" />
+                </div>
+                <div class="item-content">
+                  <h2>Manhattan</h2>
+                  <h3>85$</h3>
+                  <button>Order Now</button>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/Adobe Express - file (3).png" />
+                </div>
+                <div class="item-content">
+                  <h2>Houston</h2>
+                  <h3>70$</h3>
+                  <button>Order Now</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/Adobe Express - file (4).png" />
+                </div>
+                <div class="item-content">
+                  <h2>Tequila</h2>
+                  <h3>120$</h3>
+                  <button>Order Now</button>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/Adobe Express - file (5).png" />
+                </div>
+                <div class="item-content">
+                  <h2>Lagoon</h2>
+                  <h3>55$</h3>
+                  <button>Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footersection">
+      <div class="container">
+        <div class="footerlogo">
+          <img src="img/logo.png" />
+        </div>
+        <div class="faviconsfooter">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="twosmallsections">
+          <div class="first">
+            <h1>Get In Touch</h1>
+            <p>Azerbaijan,Baku</p>
+            <p>+994107100080</p>
+          </div>
+          <div class="second">
+            <h1>Opening Hours</h1>
+            <p>Mon - Sat,8AM - 4AM</p>
+            <p>On Sundays: 8AM - 1AM</p>
+          </div>
+        </div>
+        <div class="cletter">
+          &copy;
+          <p>Domain.</p>
+          All Rights Reserved.Designed by
+          <p>‎ HTML Codex</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js"
+      integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
