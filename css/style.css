@@ -29,9 +29,8 @@
   width: 200px;
   height: 100px;
 }
-#navbarNav {
-  justify-content: center;
-  display: flex;
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center !important;
 }
 .navbar-nav {
   gap: 50px;
@@ -676,5 +675,48 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 25vh !important;
+  }
+  .topbar {
+    display: none;
+  }
+  .banner {
+    margin-top: 0;
+  }
+  .navbar-box::before {
+    display: none;
+  }
+  .threedivs {
+    flex-direction: column;
+  }
+  .threedivs img {
+    width: 100%;
+  }
+  .videosection {
+    flex-direction: column;
+  }
+  .cosmopolitan {
+    width: 100%;
+  }
+  .pricetag {
+    width: 100%;
+  }
+  .strwbbtn {
+    margin-bottom: 20px;
+  }
+  .strawberrysection p {
+    margin-right: 40px;
+  }
+  .owl-stage .item {
+    width: 100%;
+  }
+  .breadcrumb img {
+    margin-top: 0;
+    height: 30vh;
+  }
+  .breadcrumbtext {
+    top: 27%;
+  }
 }
