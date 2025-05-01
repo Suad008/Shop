@@ -598,7 +598,12 @@
   padding: 1rem 1rem;
   margin: -1rem -1rem -1rem auto;
 }
-
+.carousel-item {
+  margin-top: -10px;
+}
+.carousel-item img {
+  margin-top: -20px;
+}
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5;
